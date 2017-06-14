@@ -1,0 +1,129 @@
+/*Estilos generales*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+    font-family: 'Merriweather Sans', sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+	padding: 0;
+}
+
+/* Navbar */
+#navbar{
+	background-image: url(../img/header-bg.jpg);
+	height: 135vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.navbar.navbar-default{
+    background-color: transparent;
+	border:none;
+}
+
+.list-menu ul li{
+	padding: 10px;
+	padding-top: 50px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
+	font-size: 16px;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color: yellow;
+}
+/*logo provisorio*/
+.navbar-default .navbar-brand{
+	font-family: 'Kaushan Script', cursive;
+    color: yellow;
+    font-size: 30px;
+    margin:0;
+}
+.navbar-brand {
+    height: 50px; 
+    font-size: 18px;
+    padding-top: 60px;
+}
+#studio{
+	text-align: center;
+	padding-top:  270px;
+}
+#welcome{
+	font-size: 26px;
+	font-family: 'Droid Serif', serif;
+}
+
+#studio .container{
+  color: white;
+  padding: 100px;
+}
+.text-home{
+  padding-top: 30px;
+  font-size: 53px;
+}
+.btn-home{
+  background: yellow;
+  color: #fff;
+  text-decoration: none;
+  padding: 13px 22px;
+  border-radius: 3px;
+  font-weight: 500px;
+  margin-top: 63px;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+/*Services */
+.about{
+	cursor: pointer;
+	background-color: white;
+	color: black;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.about h1 {
+	padding: 15px 0;
+	margin-bottom: 20px;
+}
+
+.about span { /* estilos iconos sin presionar*/
+	display: block;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	margin:auto;
+	border-radius:50%;  
+	font-size: 40px;
+	color: #FFFFFF;
+	background-color: yellow;
+
+}
+.about-item:hover span{ /* estilos iconos al presionar*/
+	opacity: 1;	
+	border: 2px solid #FFB300;
+	font-size: 40px; /*tamaño del icono*/
+}
+.about-item:hover h2{
+	opacity: 1;
+	color: #311B92;
+}
+
+.about .lead{
+	color: black;
+	font-size: 15px;
+	text-align: justify;
+    text-justify: inter-word;
+}
+/*Portafolio*/ 
+/*About*/
+/*Team*/
+/*Contacto*/
