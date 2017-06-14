@@ -10,6 +10,11 @@ body{
     margin: 0;
 	padding: 0;
 }
+h2{
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
 
 /* Navbar */
 #navbar{
@@ -125,5 +130,30 @@ body{
 }
 /*Portafolio*/ 
 /*About*/
+.img-responsive{
+	border-radius: 50%;
+	padding: 20px 10px;
+}
+.block {
+    text-align: center;
+    vertical-align: middle;
+}
+.circle {
+    background: yellow;
+    border-radius: 50%;
+    color: white;
+    height: 150px;
+    width: 150px;
+    display: table;
+    margin: 20px auto;
+
+}
+.circle h3 {
+	text-align: center;
+	font-size:16px;
+	font-weight: bold;
+    vertical-align: middle;
+    display: table-cell;
+}
 /*Team*/
 /*Contacto*/
