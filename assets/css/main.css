@@ -2,6 +2,7 @@
 *{
 	margin: 0;
 	padding: 0;
+
 }
 
 body{
@@ -155,5 +156,13 @@ h2{
     vertical-align: middle;
     display: table-cell;
 }
+.portafolio{
+	padding: 80px;
+	background-color: #E0E0E0;
+}
+
 /*Team*/
+.img-circle{
+	border: 6px solid white;
+}
 /*Contacto*/
