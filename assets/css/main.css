@@ -166,3 +166,12 @@ h2{
 	border: 6px solid white;
 }
 /*Contacto*/
+.contact{
+	background-image: url(../img/map-image.png);
+	background-color: #424242;
+	height: 120vh;
+	width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
